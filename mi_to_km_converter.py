@@ -1,12 +1,15 @@
 # from pandas import *
 from tkinter import *
 
+PAD_X = 20
+PAD_Y = 10
+
 class Main_Window(Tk):
     def __init__(self) -> None:
         super().__init__()
 
         self.title("Miles to Kilometers Converter")
-        self.config(padx=20, pady=10)
+        self.config(padx=PAD_X, pady=PAD_Y)
 
         self.setup_layout()
 
