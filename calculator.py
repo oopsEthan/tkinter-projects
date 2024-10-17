@@ -12,9 +12,7 @@ class Main_Window(Tk):
         self.config(padx=PAD_X, pady=PAD_Y)
 
         self.num_buttons = self.setup_keypad()
-        print(f"debug - Num Buttons: {self.num_buttons}")
         self.operator_buttons = self.setup_operators()
-        print(f"debug - Operator Buttons: {self.operator_buttons}")
         self.button_command_creation()
 
     def setup_keypad(self) -> list:
@@ -39,7 +37,6 @@ class Main_Window(Tk):
         Button(text="Clear", width=5, height=2).grid(row=4, column=1)
         Button(text="Enter", width=5, height=2).grid(row=4, column=3)
 
-        print(buttons)
         return buttons
     
     def setup_operators(self):
