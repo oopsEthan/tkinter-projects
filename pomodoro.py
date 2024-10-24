@@ -2,10 +2,6 @@ from tkinter import *
 from pomodoro_obj import *
 
 # Constants
-PINK = "#e2979c"
-RED = "#e7305b"
-GREEN = "#9bdeac"
-YELLOW = "#f7f5dd"
 PAD_X = 200
 PAD_Y = 100
 
