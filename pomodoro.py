@@ -16,7 +16,6 @@ if timer:
     reset_button = Button(text="Reset", command=timer.reset_timer)
 
     timer.grid(row = 2, column = 3)
-
     start_button.grid(row = 4, column = 2)
     reset_button.grid(row = 4, column = 4)
 

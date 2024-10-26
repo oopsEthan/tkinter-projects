@@ -36,7 +36,6 @@ class Timer(Canvas):
 
         self.timer_state_label = self.create_text(tomato_width/2, tomato_height/1.4, text=f"{self.timer_state}", font=(FONT_NAME, 16, "bold"))
         self.timer_text = self.create_text(tomato_width/2, tomato_height/1.75, text="00:00", font=(FONT_NAME, 24, "bold"))
-
     
     def start_timer(self) -> None:
         self.timer_state = WORK
