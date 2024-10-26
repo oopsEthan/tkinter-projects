@@ -4,6 +4,7 @@ from pomodoro_obj import *
 # Constants
 PAD_X = 200
 PAD_Y = 100
+YELLOW = "#f7f5dd"
 
 window = Tk()
 window.config(padx=PAD_X, pady=PAD_Y, bg=YELLOW)
