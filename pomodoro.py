@@ -13,6 +13,7 @@ CENTER = 3
 BUTTON_ROW = 4
 
 window = Tk()
+window.title("Pomodoro Technique Timer")
 window.config(padx=PAD_X, pady=PAD_Y, bg=YELLOW)
 
 display_for_timer_state = Label(text="OFF", font=(FONT_NAME, 32, "bold"), background=YELLOW, width=11)
