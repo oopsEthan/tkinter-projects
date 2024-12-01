@@ -9,5 +9,5 @@
     - **Description**: Pomodoro technique timer using a tkinter GUI
 
 ## 3. Password Manager
-    - **Run**: 'pass_m.py'
+    - __Run__: 'pass_m.py'
     - **Description**: Password manager using a tkinter GUI
