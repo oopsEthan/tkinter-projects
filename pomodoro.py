@@ -4,9 +4,6 @@ from pomodoro_obj import *
 # Constants
 PAD_X = 200
 PAD_Y = 100
-BLACK = "#000"
-PINK = "#E2979C"
-RED = "#E7305B"
 GREEN = "#9BDEAC"
 YELLOW = "#F7F5DD"
 FONT_NAME = "Courier"

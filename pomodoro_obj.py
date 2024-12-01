@@ -11,11 +11,6 @@ WORK_MIN = 25
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 15
 
-# Test minutes
-# WORK_MIN = 1
-# SHORT_BREAK_MIN = 1
-# LONG_BREAK_MIN = 1
-
 # Other constants
 # ✓
 BLACK = "#000"
@@ -42,7 +37,6 @@ class Timer(Canvas):
 
         self.create_image(tomato_width/2, tomato_height/2, image=self.tomato_png)
 
-        # self.timer_state_label = self.create_text(tomato_width/2, tomato_height/1.4, text=f"{self.timer_state}", font=(FONT_NAME, 16, "bold"))
         self.timer_text = self.create_text(tomato_width/2, tomato_height/1.75, text="00:00", font=(FONT_NAME, 24, "bold"), fill="#ffffff")
     
     def start_timer(self) -> None:
@@ -106,5 +100,4 @@ class Timer(Canvas):
     def format_timer(self) -> None:
         minutes_left = self.time_left // 60
         seconds_left = self.time_left % 60
-        # self.itemconfig(self.timer_state_label, text=f"{self.timer_state}")
         self.itemconfig(self.timer_text, text=f"{minutes_left:02}:{seconds_left:02}")
