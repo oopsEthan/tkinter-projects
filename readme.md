@@ -2,7 +2,7 @@
 
 Please run `main.py` for all projects.
 
-## 1. Miles to Kilometers Converter
+## 1. Mile-to-Kilo Converter
 - **Description**: Helps convert miles to kilometers
 
 ## 2. Pomodoro Technique Timer
