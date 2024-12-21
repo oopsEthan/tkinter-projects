@@ -16,6 +16,4 @@ card.grid(row=1, column=0, columnspan=3)
 
 ui = UI(card)
 
-# TODO - Implement button commands into flashcard
-
 window.mainloop()

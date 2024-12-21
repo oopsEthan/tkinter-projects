@@ -1,0 +1,102 @@
+[
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "Science: Computers",
+        "question": "All program codes have to be compiled into an executable file in order to be run. This file can then be executed on any machine.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "Entertainment: Video Games",
+        "question": "In World of Warcraft lore, Thrall is the original wielder of 'Doomhammer'.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Film",
+        "question": "George Lucas directed the entire original Star Wars trilogy.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "General Knowledge",
+        "question": "Cucumbers are usually more than 90% water.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Music",
+        "question": "Muse is a British (English) rock band",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "hard",
+        "category": "Science: Mathematics",
+        "question": "L'H&ocirc;pital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "Geography",
+        "question": "Seoul is the capital of North Korea.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "General Knowledge",
+        "question": "Kissing someone for one minute burns about 2 calories.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "General Knowledge",
+        "question": "'Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.' is a grammatically correct sentence.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "Entertainment: Film",
+        "question": "Sean Connery wasn't in 'Indiana Jones and the Kingdom of the Crystal Skull' because he found retirement too enjoyable.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    }
+]

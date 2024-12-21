@@ -1,10 +1,15 @@
 from tkinter import Tk
-from question_generator import Question_Generator
-from quizzler_ui import UI
+from game_controller import Game_Controller
+from user_interface import UI
+
+DEFAULT_PADDING = 20
 
 window = Tk()
+window.config(padx=DEFAULT_PADDING, pady=DEFAULT_PADDING)
 
-questions = Question_Generator()
-ui = UI(questions)
+controller = Game_Controller()
 
-window.mainloop()
+ui = UI(controller, window)
+ui.grid(row=1, column=0, columnspan=3)
+
+window.mainloop()   
