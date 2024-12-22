@@ -1,4 +1,5 @@
 from tkinter import *
+from game_controller import GameController
 
 # Constants
 DEFAULT_WIDTH = 700
@@ -45,7 +46,7 @@ QUESTION_TEXT_STYLE = {
 
 # The UI class handles pretty much all the player input and requests from controller when needed
 class UI(Canvas):
-    def __init__(self, game_controller):
+    def __init__(self, game_controller: GameController):
         super().__init__()
         self.controller = game_controller
         self.config(**QUESTION_WINDOW_STYLE)
