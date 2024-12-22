@@ -14,5 +14,5 @@ Please run `main.py` for all projects.
 ## 4. Flashcards
 - **Description**: Flashcards intended to teach the 100 most common Russian words
 
-## 5. The Quizzler (WIP)
+## 5. The Quizzler
 - **Description**: Trivia game built using API calls and Tkinter
